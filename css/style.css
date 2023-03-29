@@ -1,0 +1,113 @@
+*{
+	padding:0;
+	margin:0 auto;
+	box-sizing:border-box;
+}
+.task{
+	background-image:url('images/box-promo01.jpg');
+
+	background-repeat:norepeat;
+	background-position:top center;
+	background-size:cover;
+	border:2px solid #fff;
+}
+.container{
+	width:100%;
+	margin:auto;
+	text-align:center;
+	
+}
+.row{
+	display:flex;
+	gap:10px;
+	padding:40px;
+	
+}
+.col{
+	width:25%;
+	
+	
+}
+.hed{
+	padding-top:40px;
+}
+h2,h3,h4{
+	color:#fff;
+	font-family:'poppins',sans-serif;
+}
+p,i{
+	color:red;
+}
+p{
+	font-family:'poppins',sans-serif;
+	font-size:20px;
+	font-weight:700;
+}
+	
+.icon i{
+	font-size:42px;
+}
+.round{
+	width:150px;
+	height:150px;
+    box-shadow:0 0 10px 3px red;
+	border:2px solid #fff;
+	border-radius:50%;
+	padding:38px;
+	
+}
+.num h3{
+	font-size:35px;
+}
+.cont h4{
+	padding-top:20px;
+}
+
+@media(min-width:320px){
+	.container{
+		width:100%;
+	}
+	   .row{
+		   display:flex;
+			flex-wrap:wrap;
+	   }
+	   .col{
+		   width:100%;
+	   }
+	  
+        }
+        /* tab/ipad */
+        @media(min-width:620px){
+            .container{
+		width:90%;
+	
+	}
+	.row{
+		   display:flex;
+		   flex-wrap:wrap;
+	   }
+	  
+		.col{
+			width:45%;
+		}
+	   
+        }
+       /* Desktop/laptop*/
+        @media (min-width:1020px){
+		
+	     .container{
+		width:90%;
+	}
+	.row{
+		   display:flex;
+		   flex-wrap:nowrap;
+		 
+		   
+        
+	   }
+	  
+	   .col{
+		   width:25%;
+	   }
+		}
+		
